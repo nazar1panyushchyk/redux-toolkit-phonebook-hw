@@ -1,34 +1,39 @@
 .add-inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border: 2px solid #6c6666;
-    padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid #6c6666;
+  padding: 50px;
 }
 
 .add-inputs button {
-    background-color: green;
+  background-color: green;
 }
 
 input {
-    height: 30px;
-    border-radius: 20px;
-    border: none;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
 }
 
 label {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .filter-contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .filter-contacts button {
-    background-color: #ce4c4c;
-    margin-left: 10px;
+  background-color: #ce4c4c;
+  margin-left: 10px;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
